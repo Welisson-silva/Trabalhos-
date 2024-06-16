@@ -1,0 +1,140 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2E00F3;
+    padding: 10px 20px;
+    color: #fff;
+    height: 70px;
+}
+
+.navbar h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+
+.logout-btn {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ff4d4d;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #cc0000;
+}
+
+.main {
+    padding: 20px;
+}
+
+.main h1 {
+    color: #573666;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.table {
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #2E00F3;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+td button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+td .btn-primary a, .btn-add a {
+    background-color: #2E00F3;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+td .btn-primary a:hover, .btn-add a:hover {
+    background-color: #573666;
+}
+
+td .btn-danger a {
+    background-color: #FF0000;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+td .btn-danger a:hover {
+    background-color: #cc0000;
+}
+
+.btn-add {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.btn-add a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2E00F3;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-add a:hover {
+    background-color: #573666;
+}
+
+.btn-primary a i, .btn-danger a i {
+    margin-right: 5px;
+}
