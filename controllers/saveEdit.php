@@ -9,8 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $senha = $_POST['senha'];
     $nivel_acesso = $_POST['nivel_acesso'];
 
-    // Atualiza os dados do usuário
-    $query = "UPDATE usuarios SET nome='$nome', email='$email', senha='$senha', nivel_acesso='$nivel_acesso' WHERE id='$id'";
+    $query = "UPDATE usuarios SET nome='$nome', email='$email', password='$senha', nivel_acesso='$nivel_acesso' WHERE id='$id'";
     $result = mysqli_query($conexao, $query);
 
     if ($result) {

@@ -9,7 +9,7 @@ if (
   $email = $_POST["email"];
   $password = $_POST["password"];
 
-  $query = "SELECT * FROM usuarios WHERE email = '$email' AND senha = '$password'";
+  $query = "SELECT * FROM usuarios WHERE email = '$email' AND password = '$password'";
   $result = mysqli_query($conexao, $query);
 
   if (mysqli_num_rows($result) > 0) {

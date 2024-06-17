@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="../css/tela-login.css">
 </head>
+
 <body>
     <div class="login-container">
         <form class="login-form" action="../controllers/validateLogin.php" method="post">
@@ -20,9 +22,10 @@
             </div>
             <input type="submit" class="btn btn-login" name="submit" value="Login" />
             <p>
-              Não tem conta ? <a href="./tela-cadastro.php">Criar uma </a>
+                Não tem conta ? <a href="./tela-cadastro.php">Criar uma </a>
             </p>
         </form>
     </div>
 </body>
+
 </html>

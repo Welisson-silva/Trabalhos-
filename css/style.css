@@ -5,7 +5,6 @@ body, html {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     background-color: #f8f9fa;
-    color: #333;
 }
 
 .container {
@@ -52,7 +51,7 @@ header p {
 }
 
 .btn-signup {
-    background-color: #573666;
+    background-color: #5b2ae2;
     color: #fff;
 }
 

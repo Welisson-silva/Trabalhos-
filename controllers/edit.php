@@ -12,7 +12,7 @@ if (!empty($_GET["id"])) {
         while ($row = mysqli_fetch_assoc($result)) {
             $nome = $row["nome"];
             $email = $row["email"];
-            $senha = $row["senha"];
+            $senha = $row["password"];
             $nivel_acesso = $row["nivel_acesso"];
         }
     } else {

@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (mysqli_num_rows($result_validate) > 0) {
     echo "<p class='temEmail' >EMAIL JA CADASTRADO!</p>";
   } else {
-    $query = "INSERT INTO usuarios (nome, email, senha, nivel_acesso) VALUES ('$nome', '$email', '$senha', '$nivel_acesso')";
+    $query = "INSERT INTO usuarios (nome, email, password, nivel_acesso) VALUES ('$nome', '$email', '$senha', '$nivel_acesso')";
     $result = mysqli_query($conexao, $query);
 
     if ($result) {

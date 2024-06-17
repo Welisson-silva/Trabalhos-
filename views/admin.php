@@ -43,7 +43,7 @@ $result = mysqli_query($conexao, $query);
   'opsz' 24
 }
 </style>
-    <title>Navbar com título e botão Sair</title>
+    <title>Adiministração</title>
 </head>
 <body>
 <div class="navbar">
@@ -72,7 +72,7 @@ $result = mysqli_query($conexao, $query);
               echo "<td>" . $row["id"] . "</td>";
               echo "<td>" . $row["nome"] . "</td>";
               echo "<td>" . $row["email"] . "</td>";
-              echo "<td>" . $row["senha"] . "</td>";
+              echo "<td>" . $row["password"] . "</td>";
               echo "<td>" . $nivel_acesso . "</td>";
               echo "<td>
                           <button class='btn btn-primary'>
@@ -96,11 +96,9 @@ $result = mysqli_query($conexao, $query);
     </table>
 </div>
 <div>
-    <button class="btn btn-add btn-primary">
+    <button class="btn-add">
         <a href="../controllers/add.php">
-          <span class='material-symbols-outlined'>
-             add
-          </span>  
+          Adicionar novo user
         </a>
     </button>
 </div>
