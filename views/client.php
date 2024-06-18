@@ -48,10 +48,6 @@ if ($resultNameUser) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/client.css">
     <title>Navbar com título e botão Sair</title>
-    <style>
-
-
-    </style>
 </head>
 
 <body>
